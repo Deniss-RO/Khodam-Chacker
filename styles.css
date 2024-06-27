@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +22,10 @@ body {
 }
 
 .h {
-    font-family: "Griffy", system-ui;
+    /* font-family: "Griffy", system-ui; */
+    font-family: "Just Another Hand", cursive;
+    font-weight: bolder;
+    letter-spacing: 2px;
 }
 
 input {
@@ -50,8 +54,10 @@ button:hover {
 
 #txt-khodam {
     margin-top: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Just Another Hand", cursive;
+    font-size: 25px;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 
 #img-khodam img{
@@ -60,5 +66,4 @@ button:hover {
     width: auto;
     height: auto;
     border-radius: 10px;
-    
 }
