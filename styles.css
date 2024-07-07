@@ -87,6 +87,11 @@ button:active {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+td, th, table {
+    padding: 10px;
+    border: 1px solid black;
+}
+
 .close {
     color: #aaa;
     float: right;

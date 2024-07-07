@@ -29,6 +29,10 @@ function randomizeKhodam() {
     const nama = document.getElementById('nama');
     const nama2 = nama.value;
 
+    const attack = Math.floor(Math.random() * 100) + 1;
+    const defends = Math.floor(Math.random() * 100) + 1;
+    const speed = Math.floor(Math.random() * 100) + 1;
+
     if(nama.value === '') {
         alert("Nama Tidak Boleh Kosong!!!");
     }
@@ -43,6 +47,18 @@ function randomizeKhodam() {
         detailKhodam.innerHTML = `
         <h1 class="h">${hasilKhodam.title}</h1>
         <p id="txt-khodam">${hasilKhodam.detail}</p>
+            <table>
+                <tr>
+                    <th>Attack</th>
+                    <th>Defends</th>
+                    <th>Speed</th>
+                </tr>
+                <tr>
+                    <td>${attack}</td>
+                    <td>${defends}</td>
+                    <td>${speed}</td>
+                </tr>
+            </table>
         `;
 
         const btnDetail = document.getElementById('btn-detail');
